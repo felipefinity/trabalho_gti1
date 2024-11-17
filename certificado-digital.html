@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificado Digital</title>
+  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+  <script type="text/javascript" src="https://kit.fontawesome.com/ef0d9690f5.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/manipulajson.js"></script>
+
+</head>
+
+<body>
+  <!--Inicio header-->
+  <header class="mb-3">
+
+    <!-- Segundo cabeçalho -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+          <img class="logo" src="img/logo-semfundo.png">
+        </a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ulheader2">
+            <li class="nav-item me-3">
+              <a href="certificado-digital.html" class="nav-link text-white">
+                Certificado Digital
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a href="assinatura-digital.html" class="nav-link text-white">
+                Assinatura Digital
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a href="pki.html" class="nav-link text-white">
+                PKI
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="ref.html" class="nav-link text-white">
+                Referências
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="integrantes.html" class="nav-link text-white">
+                Integrantes
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!--Fim header-->
+
+  <!--Hero-->
+  <section class="background-hero">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="titulo-hero">Certificado Digital</h1>
+      </div>
+    </div>
+  </section>
+  <!--Fim Hero-->
+
+  <div class="bg-white pt-5 pb-5">
+    <section class="container text-center">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-2">
+          <div class="card cor_base">
+            <div class="card-body">
+              <p class="card-text cor_texto">É como uma identidade digital que confirma que você é realmente quem diz ser. Ele é emitido por uma Autoridade Certificadora (AC). </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card cor_base">
+            <div class="card-body">
+              <p class="card-text cor_texto">Quando você usa um certificado digital, está mostrando uma "carteira de identidade" online. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card cor_base">
+            <div class="card-body">
+              <p class="card-text cor_texto">Vínculo de uma entidade a uma chave pública.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-12 mb-2">
+          <h1 class="cor_texto">Tipos de Certificados</h1>
+        </div>
+        <div class="col-md-4">
+          <h2 class="cor_texto">A1</h2>
+          <p>O certificado tipo A1 tem validade de 1 ano e pode ser instalado em vários computadores.</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="cor_texto">A3</h2>
+            <p>O certificado tipo A3 tem validade de até 5 anos e é usado por meio de mídia criptográfica (token ou cartão USB), sendo necessário conectá-lo ao computador para cada uso. Se a mídia for perdida, o certificado é perdido também.</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="cor_texto">Nuvem</h2>
+          <p>O certificado em Nuvem é armazenado na nuvem, o que reduz o risco de perda, podendo ser usado em vários dispositivos (computadores e celulares). Para cada uso, é necessário autorizar via celular.</p>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-12 mb-2">
+          <h1 class="cor_texto">Como os Bancos Usam Certificados Digitais?</h1>
+        </div>
+        <div class="col-md-12">
+          <p>Os bancos usam certificados digitais para que você possa acessar sua conta online com segurança. Quando você entra no site de um banco, o navegador verifica o certificado do site para garantir que ele é legítimo e que a conexão é segura. Isso evita que alguém "se passe" pelo banco.
+          </p>
+        </div>
+        <div class="col-md-12">
+          <p>Além disso, os bancos também usam certificados digitais para permitir que funcionários acessem sistemas internos e assinem documentos importantes digitalmente. Isso aumenta a segurança em transações e operações bancárias.</p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-12 mb-5">
+          <h1 class="cor_texto">Vantagens</h1>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/seguranca.png" width="100" alt="" class="mb-3">
+          <p>Você pode acessar sites, enviar informações e assinar documentos com muito mais segurança.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/confianca.png" width="100" alt="" class="mb-3">
+          <p>Saber que há um certificado digital ajuda a garantir que estamos lidando com pessoas e organizações reais.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/praticidade.png" width="100" alt="" class="mb-3">
+          <p>Em vez de assinar documentos em papel, você pode assinar digitalmente e com segurança.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-5">
+          <h1 class="cor_texto">Desafios</h1>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/custo.png" width="100" alt="" class="mb-3">
+          <p>Configurar tudo isso não é barato nem simples. É preciso ter equipamentos e profissionais treinados.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/manutencao.png" width="100" alt="" class="mb-3">
+          <p>Os certificados expiram e precisam ser renovados periodicamente. E se algum certificado é comprometido, ele precisa ser substituído rapidamente.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/confiar.png" width="100" alt="" class="mb-3">
+          <p>Precisamos confiar que as empresas que emitem os certificados fazem o trabalho certo, porque se elas falharem, a segurança de todos pode ser afetada.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--Inicio footer-->
+  <div class="bg-footer">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row text-center">
+          <div class="col-md-6 mb-3">
+            <a href="index.html">
+              <img class="logo-footer" src="img/logo_vertical_ifsudestemg-3-01.png">
+            </a>
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <ul class="nav flex-column ulfooterlinks">
+              <li class="nav-item mb-2"><a href="certificado-digital.html" class="nav-link p-0 text-white">Certificado
+                  Digital</a></li>
+              <li class="nav-item mb-2"><a href="assinatura-digital.html" class="nav-link p-0 text-white">Assinatura
+                  Digital</a></li>
+              <li class="nav-item mb-2"><a href="pki.html" class="nav-link p-0 text-white">PKI</a></li>
+              <li class="nav-item mb-2"><a href="ref.html" class="nav-link p-0 text-white">Referências</a></li>
+              <li class="nav-item mb-2"><a href="integrantes.html" class="nav-link p-0 text-white">Integrantes</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p class="text-white">© 2024 Instituto Federal Sudeste de Minas Gerais.</p>
+            <ul class="list-unstyled d-flex ulfooter">
+              <li class="nav-item me-1"><a target="_blank" href="https://www.facebook.com/IFsaojoaodelrei?locale=pt_BR"
+                  class="nav-link link-body-emphasis px-2" aria-current="page"><i
+                    class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+              <li class="nav-item me-1"><a target="_blank" href="https://www.youtube.com/@IFSudesteMGvideos/featured"
+                  class="nav-link link-body-emphasis px-2"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+              <li class="nav-item me-1"><a target="_blank"
+                  href="https://www.linkedin.com/school/ifet-sudeste-mg/posts/?feedView=all"
+                  class="nav-link link-body-emphasis px-2"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
+              <li class="nav-item"><a target="_blank" href="https://www.instagram.com/ifsudestemg/"
+                  class="nav-link link-body-emphasis px-2"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+            </ul>
+          </div>
+      </footer>
+    </div>
+  </div>
+  <!--Fim footer-->
+
+</body>
+
+</html>
